@@ -1,0 +1,128 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: Z:\home\elti\.steam\debian-installation\steamapps\common\Team Fortress 2\tf\materials
+Loading Z:\home\elti\Documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing Z:\home\elti\Documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14105 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 60 texinfos to 30
+Reduced 7 texdatas to 7 (132 bytes to 132)
+Writing Z:\home\elti\Documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'Z:\home\elti\Documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+8 threads
+reading z:\home\elti\documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.bsp
+reading z:\home\elti\documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.prt
+ 112 portalclusters
+ 307 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5 visible clusters (0.04%)
+Total clusters visible: 12225
+Average clusters visible: 109
+Building PAS...
+Average clusters audible: 112
+visdatasize:4038  compressed from 3584
+writing z:\home\elti\documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'z:\home\elti\documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading z:\home\elti\documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.bsp
+330 faces
+1419107 square feet [204351504.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+330 patches before subdivision
+6002 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 68788, max 127
+transfer lists:   0.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                 32/32768         384/393216   ( 0.1%) 
+brushsides             192/655360       1536/5242880  ( 0.0%) 
+planes                 222/65536        4440/1310720  ( 0.3%) 
+vertexes               429/65536        5148/786432   ( 0.7%) 
+nodes                  372/65536       11904/2097152  ( 0.6%) 
+texinfos                30/32768        2160/2359296  ( 0.1%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  330/65536       18480/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              133/65536        7448/3670016  ( 0.2%) 
+leaves                 386/65536       12352/2097152  ( 0.6%) 
+leaffaces              346/65536         692/131072   ( 0.5%) 
+leafbrushes            179/65536         358/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1914/512000       7656/2048000  ( 0.4%) 
+edges                 1008/256000       4032/1024000  ( 0.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/32768          40/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            72/65536         144/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      108128/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        4038/16777216 ( 0.0%) 
+entdata               [variable]       29149/393216   ( 7.4%) 
+LDR ambient table      386/65536        1544/262144   ( 0.6%) 
+HDR ambient table      386/65536        1544/262144   ( 0.6%) 
+LDR leaf ambient       184/65536        5152/1835008  ( 0.3%) 
+HDR leaf ambient       386/65536       10808/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       14105/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 722
+Writing z:\home\elti\documents\laplateforme\jvsi-a3\fortress-framework\maps\pl_map.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
